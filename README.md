@@ -39,12 +39,11 @@ workbuddy /readme
 
 ```
 CommitDNA/
-├── .workbuddy/
-│   └── skills/
-│       ├── commit-gen/
-│       │   └── SKILL.md
-│       └── readme-gen/
-│           └── SKILL.md
+├── skills/
+│   ├── commit-gen/
+│   │   └── SKILL.md
+│   └── readme-gen/
+│       └── SKILL.md
 ├── README.md
 └── LICENSE
 ```

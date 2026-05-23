@@ -122,27 +122,14 @@ Think like a **senior engineer at Vercel** writing a commit that will be read 3 
    - What logic was added / removed / changed?
    - Which module does it belong to?
 
-3. Generate **3 candidate commits** following the rules above.
+3. Generate **1 best commit** following the rules above. Analyze the changes and pick the most accurate type + scope + message. Do NOT generate 3 candidates.
 
-4. Present them to the user in this format:
-
-   ```
-   Candidate 1:
-   <type>(<scope>): <message>
-
-   Candidate 2:
-   <type>(<scope>): <message>
-
-   Candidate 3:
-   <type>(<scope>): <message>
-   ```
-
-5. Ask the user to pick one, or suggest modifications.
-
-6. After the user confirms, execute:
+4. Execute directly:
    ```bash
    git commit -m "<selected commit message>"
    ```
+
+Do NOT ask the user to pick. Do NOT present multiple candidates. Just pick the best one and commit.
 
 ### When the user is about to push
 
